@@ -1,0 +1,142 @@
+/* Genel Sayfa Stilleri */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f4f1ea;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+header {
+    background-image: url('https://i.pinimg.com/736x/88/16/c3/8816c30e1832155a652f25d20c19cd69.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px; /* Header yüksekliği */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Başlık Stili */
+header {
+    background-color: #033871;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* İçerik Konteyneri */
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Başlık Stilleri */
+h1, h2, h3 {
+    color: #8882ee;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Paragraf Stili */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Resim Stili */
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Liste Stilleri */
+ul, ol {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Alıntı (Quote) Stili */
+.quote {
+    font-style: italic;
+    color: #7f8c8d;
+    border-left: 4px solid #2c3e50;
+    padding-left: 15px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+/* Link Stili */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a5276;
+}
+
+/* Düğme Stili (Eğer Kullanmak İstersen) */
+button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1a252f;
+}
+
+/* Mobil Uyum */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p, ul, ol {
+        font-size: 16px;
+    }
+}
