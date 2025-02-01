@@ -2,83 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sinif Tablosu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitesi</title>
+    <link rel="shortcut icon" href="img/code.png">
     <style>
-        body {
-            font-family: Verdana,Arial;
+        body{
+            background-color: #F8FAFC;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #BCCCDC;
+            color: #D9EAFD;
+            text-align: center;
+            padding: 10px;
         }
         h1{
-            text-align:center;
-            color: #8882ee
+            margin: 0;
         }
-        table {
-            width:100%;
-            border-collapse:collapse;
-            margin:20px;
+        section{
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #BCCCDC;
+            border: 1px solid #9AA6B2;
+            width: 80%;
+
         }
-        th,td {
-            border:1px solid #bbbbf1;
-            padding:10px;
-            text-align:center;
+        article{
+            margin-bottom: 20px;
         }
-        th{
-            background-color: #e0defa;
-            font-weight: bold;
+        h2{
+            color: #9AA6B2;
+        }
+        p{
+            color: #333;
+
+        }
+        ul,ol{
+            list-style-type: circle;
+            padding-left: 20px;
+
+        }
+        div{
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #BCCCDC;
+            border: 1px solid #9AA6B2;
+            width: 80%;
         }
 
     </style>
 </head>
 <body>
- <h1> Sinif Tablosu</h1>
-<table>
-    <thead>
-        <tr>
-        <th>Ogrenci numarasi</th>
-        <th>Adi</th>
-        <th>Soyadi</th>
-        <th>Not</th>
-        </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>2399</td>
-        <td>Martin</td>
-        <td>Eden</td>
-        <td>101</td>
-    </tr>
+<header>
+    <h1>Kişisel Blog</h1>
+</header>
 
-     <tr>
-         <td>1212</td>
-         <td>Hamit</td>
-         <td>Canpolat</td>
-         <td>96</td>
-     </tr>
-    <tr>
-        <td>1215</td>
-        <td>Jude</td>
-        <td>Fawley</td>
-        <td>100</td>
-    </tr>
-    <tr>
-        <td>8963</td>
-        <td>Sue</td>
-        <td>Gunes</td>
-        <td>98</td>
-    </tr>
-    <tr>
-        <td>4523</td>
-        <td>Eren</td>
-        <td>Eager</td>
-        <td>5</td>
-    </tr>
+<section>
+    <article>
+        <h2>Eğitim</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum dolor.</li>
+        </ul>
+        <img src="img/2.jpg" alt="Eğitim" width="100" height="100">
+        <img src="img/3.jpg" alt="Eğitim" width="100" height="100">
+        <p>Okul hakkında bilgi almak isterseniz => <a href="https://w3.sdu.edu.tr">SDÜ</a></p>
+    </article>
+</section>
+<div>
+    <article>
+        <h2>Katıldığım Topluluklar</h2>
+        <p>Öğrencilik hayatımda aktif olarak topluluklara üye olup yapılan etkinliklerde aktif olarak yer aldım.</p>
 
-    <tr>
-        <td>8452</td>
-        <td>Howl</td>
-        <td>Moving Castle</td>
-        <td>99</td>
-    </tr>
-    </tbody>
-</table>
+        <ol>
+            <li>GDG<img src="img/gdg.jpg" width="90" height="30"></li>
+            <li>IEEE<img src="img/ıeee.jpg" width="90" height="20" ></li>
+        </ol>
+        <p>-GDG hakkında bilgi sahibi olmak isterseniz =><a href="https://developers.google.com/community?hl=tr">GDG</a></p>
+        <p>-IEEE hakkında bilgi sahibi olmak isterseniz =><a href="https://www.ieee.org.tr">IEEE</a></p>
+    </article>
+</div>
+
+<section>
+    <article>
+        <h2>İletişim</h2>
+        <p>İletişim için aşağıdaki formu doldurabilirsiniz.</p>
+        <img src="img/4.jpg" alt="İletişim" width="100" height="100">
+        <form  method="post">
+            <label for="ad">Adınız:</label><br>
+            <input type="text" name="ad" id="ad" required>
+            <br>
+            <label for="soyad">Soyadınız:</label><br>
+            <input type="text" name="soyad" id="soyad" required>
+            <br>
+            <label for="email">E-posta Adresiniz:</label><br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="mesaj">Mesajınız:</label><br>
+            <textarea name="mesaj" id="mesaj" cols="30" rows="10" required></textarea>
+            <br>
+            <button type="submit">Gönder</button>
+          </form></article>
+</section>
+
+<div>
+    <h2>Sosyal Medya Hesapları</h2>
+    <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram" width="50" height="50"></a>
+    <a href="https://twitter.com/"><img src="img/twitter.png" alt="Twitter" width="50" height="50"></a>
+    <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook" width="50" height="50"></a>
+</div>
+
+<footer>
+    <p>&copy; Web Tasarımı Dersi</p>
+</footer>
+
 </body>
 </html>

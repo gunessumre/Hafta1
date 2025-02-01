@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roma ve Paris Rönesans Rehberi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navigasyon Menüsü -->
+<nav>
+    <div class="menu-toggle">Menü</div>
+    <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkinda.html">Hakkında</a></li>
+        <li><a href="servisler.html">Servisler</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Roma ve Paris'te Rönesans Dönemi Rehberi</h1>
+</header>
+
+<div class="container">
+    <p>Rönesans dönemi, Avrupa tarihinin en önemli sanat ve mimari dönemlerinden biridir. Bu site, Roma ve Paris'teki Rönesans mimarisinin öne çıkan yapıtlarını ve sanatçılarını tanıtarak, bu büyük dönemi daha yakından tanımanızı sağlamaktadır.</p>
+    <p>Roma, Rönesansın kalbi olarak kabul edilirken, Paris de bu sanatsal hareketin yayıldığı ve geliştiği önemli bir merkez olmuştur. Her iki şehir de sanat ve mimarlık tarihine damga vurmuş eserlerle doludur.</p>
+
+    <img src="https://ronesansmimarisi.wordpress.com/wp-content/uploads/2020/11/800px-baldaquin_bernin_saint-pierre_vatican.jpg" alt="Aziz Petrus Bazilikası Baldacchino">
+    <div class="image-caption">Aziz Petrus Bazilikası, Baldacchino, Bernini</div>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/500px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg" alt="Atina Okulu - Raffaello">
+    <div class="image-caption">Atina Okulu, Raffaello</div>
+    <p><strong>Atina Okulu (Scuola di Atene)</strong>, Vatikan'daki Apostolik Saray'da yer alan ve Raffaello tarafından yapılan bir fresktir. Tabloda, antik Yunan'ın en büyük filozofları bir araya getirilmiştir. Platon ve Aristoteles merkezde yer alırken, sanatçı kendini de tabloya gizlice dahil etmiştir. Bu eser, Rönesans'ın bilgi ve bilgelik arayışını temsil eder.</p>
+
+    <h2>Öne Çıkan Rönesans Mimari Eserler</h2>
+    <ul>
+        <li><strong>Roma:</strong>
+            <ul>
+                <li><em>Aziz Petrus Bazilikası:</em> Michelangelo'nun mimari katkılarıyla tamamlanan bu bazilika, Rönesans mimarisinin zirvesini temsil eder.</li>
+                <li><em>Villa Farnesina:</em> Raffaello'nun freskleriyle süslenmiş bu villa, Roma Rönesans'ının en güzel örneklerinden biridir.</li>
+            </ul>
+        </li>
+        <li><strong>Paris:</strong>
+            <ul>
+                <li><em>Louvre Sarayı:</em> Rönesans döneminde genleşletilen bu yapı, günümüzde dünyanın en büyük sanat müzelerinden biridir.</li>
+                <li><em>Église Saint-Eustache:</em> Gotik ve Rönesans mimarisinin harmanlandığı bu kilise, Paris'teki önemli yapıtlardandır.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+
+<div class="image-gallery">
+    <div class="image-item">
+        <img src="https://i.pinimg.com/474x/c0/c9/00/c0c9006de4c0b8101d3884e4fccacb67.jpg" >
+
+    </div>
+    <div class="image-item">
+        <img src="https://i.pinimg.com/736x/17/dc/6c/17dc6ce2351b83a3a20df87dfbb1fa14.jpg" >
+
+    </div>
+    <div class="image-item">
+        <img src="https://i.pinimg.com/736x/30/25/7d/30257d63d6f3176c9e564356bb612015.jpg" >
+
+    </div>
+    <div class="image-item">
+        <img src="https://i.pinimg.com/736x/eb/6f/0b/eb6f0b0b446b419dee7efecdcc56f8bf.jpg" alt="Transfiguration - Raffaello">
+
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Roma ve Paris Rönesans Rehberi | Tüm Hakları Saklıdır.
+</footer>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+</body>
+</html>
